@@ -146,7 +146,6 @@ if __name__ == "__main__":
     gui = ti.GUI("Implicit Mass Spring System", res=(m, n))
     while gui.running:
         img_L1TV.update();
-        time.sleep(0.05)
         img_L1TV.display(gui);
         gui.show();
     
